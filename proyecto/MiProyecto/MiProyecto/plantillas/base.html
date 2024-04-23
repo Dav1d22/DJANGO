@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}            {% endblock %}</title>
+</head>
+<body>
+    {% include "cabecera.html"%}
+    <section>
+        <h1>Turbo</h1>
+        <h2>Videos Variados</h2>
+        <p>Usted esta viendo este video a la fecha {{fecha}}</p>
+
+    </section>
+
+    {% include "footer.html" %}
+
+</body>
+</html>
